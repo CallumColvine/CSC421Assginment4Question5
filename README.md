@@ -7,6 +7,7 @@ To run, type the following commands:
 import os
 
 os.chdir("Your Download Directory Here")
+
 ex.) os.chdir("C:\Users\Clami\OneDrive\University\CSC 421\Assignment4")
 
 import mnist_loader

@@ -10,7 +10,7 @@ os.chdir("Your Download Directory Here")
 
 ex.) os.chdir("C:\Users\Clami\OneDrive\University\CSC 421\Assignment4")
 
-import mnist_loader
+from src import mnist_loader
 
 training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
 
